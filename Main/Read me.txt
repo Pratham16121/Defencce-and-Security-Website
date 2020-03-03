@@ -1,0 +1,5 @@
+Our problem statement is to create an informative website for indian forces and field of 
+indian security.(Out of the box)
+This motives to help and serve to the families of the officers who sacrified there lifes to save the country,
+by providing them emplyment and educational concessions to their children.
+You can directly open the Main.html file to see the website.

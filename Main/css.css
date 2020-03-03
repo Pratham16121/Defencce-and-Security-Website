@@ -1,0 +1,384 @@
+#Top{
+    margin: 0;
+    padding: 0;
+    font-family: ;
+    /*background-image: url(BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+#Top .container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#Top .container .column{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-right: 3px solid rgba(0,0,0,0);
+    box-sizing: border-box;
+    z-index: 1;
+}
+#Top .container .column:last-child{
+    border-right: none;
+}
+#Top .container .column .content{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+#Top .container .column .content h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    background: rgba(0,0,0,0);
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgba(255,255,255,.2);
+    font-size: 15em;
+    border-top: 2px solid rgba(0,0,0,0);
+    border-bottom: 2px solid rgba(0,0,0,0);
+}
+#Top .container .column .content .box{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    padding: 40px;
+    background: rgba(255,255,255,1);
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+}
+#Top .container .column.active .content .box{
+    opacity: 1;
+}
+#Top .container .column .content .box h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: #262626;
+}
+#Top .container .column .content .box p{
+    color: #262626;
+    font-size: 18px;
+}
+#Top .container .column .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+#Top #Stext1,#Top #Stext2{
+    font-size: 10vw;
+    font-style: bold;
+    font-family: 'Poppins', cursive;
+    text-transform: uppercase;
+    font-weight: 1000;
+    line-height: 1ew;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+}
+#Top #Stext1{
+    background-image: url("Defence3.jpg");
+    background-position: center;
+}
+#Top #Stext2{
+    background-image: url("unnamed.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+body #Defence, body #Security, body #button1{
+  margin: 0;
+  /*in-height: 100vh;*/
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/*#D, #S {
+    padding: 50px;
+}*/
+#QWE{
+    height: 100vh;
+}
+#DHeading,#SHeading{
+    font-size: 120px;
+    padding: 50px;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', cursive;
+    justify-content: center;
+    transition: translate(-20%,0);
+}
+#Defence .cardd{
+  position: relative;
+  width: 256px;
+  height: 384px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.05), 2px 4px 32px 0 rgba(0, 0, 0, 0.1), 0 0 64px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: transform 300ms ease;
+}
+#Defence .cardd .imaged{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 70px;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  transition: bottom 300ms ease;
+}
+#Defence .cardd .contentd{
+  position: absolute;
+  z-index: 10;
+  padding: 0.5rem;
+  height: 100%;
+  background: white;
+  transform: translateY(314px);
+  transition: transform 300ms ease;
+}
+#Defence .cardd .contentd .headerd{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#Defence .cardd .contentd .metad{
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+#Defence .cardd .contentd .descriptiond{
+  opacity: 0;
+  transition: opacity 500ms ease 100ms;
+}
+#Defence .cardd:hover{
+  transform: translateY(-16px);
+}
+#Defence .cardd:hover .imaged{
+  bottom: 280px;
+}
+#Defence .cardd:hover .contentd{
+  transform: translateY(104px);
+}
+#Defence .cardd:hover .contentd .descriptiond{
+  opacity: 1;
+}
+body .footer{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Bangers' , cursive;*/
+    /*background: #000;*/
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #EAEDED;
+    align-content: center;
+    text-align: center;
+}
+.footer .column{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-right: 2px solid rgba(0,0,0,0);
+    box-sizing: border-box;
+    z-index: 1;
+}
+.footer h1,.footer h2,.footer h3{
+    letter-spacing: 2px;
+}
+.footer .column .box h3{
+    font-size: 19px;
+}
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body #Security {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Security .container {
+    max-width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#Security .card {
+    position: relative;
+    margin: 20px 0;
+    width: 256px;
+    height: 344px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    background: white;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0, 0, 0, .5), 0 20px 20px rgba(0, 0, 0, .5);
+    transition: 1s;
+}
+
+#Security .card:hover {
+    z-index: 10000;
+    transform: perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5), 0 10px 100px rgba(0, 0, 0, .5);
+}
+
+#Security .card .imgBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: #000;
+    box-sizing: border-box;
+    position: relative;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s cubic-bezier(.15, 1.7, .84, .58);
+    background: #111;
+}
+
+#Security .card .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Security .card:hover .imgBox {
+    transform: rotateY(-135deg);
+}
+#Security .card .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+}
+#Security .card .details .header{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#Security .card .details .meta{
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+#button{
+    margin: 0;
+    padding: 0;
+}
+body #button{
+    background: ;
+    font-family: sans-serif;
+    margin-top: 100px;
+    align-content: center;
+    margin-bottom: 125px;
+    margin-right: 500px;
+}
+#button ul{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,0%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#button ul li{
+    list-style: none;
+    margin: 0 5px;
+}
+#button ul li a span{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+#button ul li a{
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skewX(25deg) translate(0,0);
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+}
+#button ul li a:before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transform: 0.5s;
+    transform: rotate(0deg) skewY(-45deg);
+    
+}
+#button ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20%;
+    width: 100%;
+    background: #b1b1b1;
+    transform: 0.5s;
+    transform: rotate(0deg) skewX(-45deg);
+    
+}
+#button ul li a:hover{
+    
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5); 
+}
+#button ul li:hover .span{
+    color: #fff;
+}
+#button ul li:hover a{
+    background: #dd4b39;
+}
+
+#button ul li:hover a:before{
+    background: #b33a2b;
+}
+
+#button ul li:hover a:after{
+    background: #e66a5a;
+}
+.above_footer #Db{
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid red;
+}

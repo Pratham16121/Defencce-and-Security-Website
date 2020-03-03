@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript">
+     function myFac()
+        {
+            alert("Thank you! Your request will be processed shortly");
+        }
+    </script>
+</head>
+
+
+<body>
+    <div class="loginBox">
+        <img src="Education.jpg" class="user">
+        <h2>Education</h2>
+        <?php include (process.php)?>
+        <form>
+            <p>Name</p>
+            <input type="text" name="user_name" placeholder="Enter Your Name">
+            <p>No. of child</p>
+            <input type="number" name="user_No." placeholder="Enter no. of Children">
+            <p>Email</p>
+            <input type="email" name="user_email" placeholder="Enter Email">
+            <p>Late Officer's Name</p>
+            <input type="text" name="user_L_Officer" placeholder="Enter Name">
+            <p>Defence</p>
+            <select id="AA" placeholder="Please Select Category">
+                <option style="color: black;background: transparent">None</option>
+                <option style="color: black;background: transparent">Air</option>
+                <option style="color: black;background: transparent">Naval</option>
+                <option style="color: black;background: transparent">Army</option>
+            </select>
+            <input type="submit" name="" value="Sign In" onclick="myFac()">
+            <a href="#">Forgot Password</a>
+        </form>
+    </div>
+</body>
+</html>
